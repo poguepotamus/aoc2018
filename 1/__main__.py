@@ -33,9 +33,6 @@ class FrequencyCalculator:
 				frequencies.append(frequency)
 				frequency += change
 
-			if counter == 100:
-				pass
-
 			counter += 1
 
 	def getFirstDoubleFrequency(self):
